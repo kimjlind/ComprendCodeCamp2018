@@ -1,5 +1,9 @@
+*, html, body {
+  box-sizing: border-box;
+}
+
 h1 {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 img {
   width: 100%
@@ -9,20 +13,24 @@ img {
 }
 h1 {
     text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: system-ui;
 }
 p {
   text-align: center;
+  font-size: 15px;
+  font-family: system-ui;
 }
-header {
 
+header {
+  color: rgb(240, 240, 240);
+  background-color: rgb(0, 0, 0);
 }
-.column {
-  float: left;
-  width: calc(33.33% - 10px);
-  padding: 5px;
+.space img {
+  padding: 1px 3px 1px 3px;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+
+.space {
+  overflow: hidden;
 }
