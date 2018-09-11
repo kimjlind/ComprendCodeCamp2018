@@ -1,11 +1,28 @@
 h1 {
-  color: purple
+  color: black;
 }
 img {
-  width: 400px;
-  margin-left: 500px;
-  margin-right: 500px;
+  width: 100%
 }
-.orange {
-  color: orange;
+.dark grey {
+  color: rgb(60, 60, 60);
+}
+h1 {
+    text-align: center;
+}
+p {
+  text-align: center;
+}
+header {
+
+}
+.column {
+  float: left;
+  width: calc(33.33% - 10px);
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
