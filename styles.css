@@ -2,6 +2,26 @@
   box-sizing: border-box;
 }
 
+html, body {
+      height: 100%;
+}
+.landscape {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images CCC/long landscape.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 3px;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
 h1 {
   color: white;
 }
@@ -12,23 +32,18 @@ h1 {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size:45px;
     font-family: 'Merriweather', serif;
 }
 p {
   text-align: center;
-  font-size: 15px;
-  font-family: 'Merriweather', serif;
-}
-
-header {
   color: white;
-  background-color: hsl(0, 100%, 90%);
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
 }
 .space img {
   padding: 1px 3px 1px 3px;
 }
-
 .space {
   overflow: hidden;
 }
